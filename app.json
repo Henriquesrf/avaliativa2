@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Mercado Bom Leite",
+    "slug": "mercado-bom-leite",
+    "scheme": "mercadobomleite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.exemplo.mercadobomleite",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E7F4E8"
+      }
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

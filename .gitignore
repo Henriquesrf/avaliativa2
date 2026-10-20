@@ -1,0 +1,24 @@
+# Dependências e caches
+node_modules/
+.expo/
+dist/
+web-build/
+.npm/
+
+# Arquivos nativos gerados pelo Expo
+android/
+ios/
+
+# APKs e outros binários grandes não devem ir ao GitHub
+*.apk
+*.aab
+*.ipa
+
+# Dados locais
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-error.log*
